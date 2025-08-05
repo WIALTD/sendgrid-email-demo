@@ -5,26 +5,27 @@
  *
  * This is the approach used by Global Guide Group (GGG) to relay
  * private tour requests to our guides without exposing email addresses
- * or API keys to the public. 
+ * to the public, and keeping API keys safe from potential bad actors. 
  * 
- * For the beginner dev or business owner looking to solve their problem: 
- * you'll need to turn Dev Mode on, click the 'backend' (two squiggly brackets) 
- * button in the lh column, then the plus button to add this code. 
- * You'll need to use Wix Secrets Manager to store your API keys, which you get 
- * from (in this case) Sendgrid. In order for your example code to work, you will 
- * also need to make sure each secret is named exactly as they are in the code below, 
- * for example:'SENDGRID_API_KEY' and so on...
- * This code also sends information from the site form to Sendgrid so that it can
- * personalise the email. See the README for more about that. 
- *
- * Key Features:
- *  - Uses Wix Secrets Manager for API key, sender email, and template ID
- *  - Keeps email logic entirely in the backend (secure, no key leakage)
- *  - Uses dynamic template data for personalized transactional emails
- *
- * For security:
- *  - Never commit live API keys to your repo
- *  - All sensitive values are pulled from Wix Secrets Manager
+ * /**
+ * Quick Start for Wix Beginners who want to use this code:
+ * 1. Enable Dev Mode in Wix (switch in top menu)
+ * 2. Click the "Backend" folder (two curly braces icon)
+ * 3. Click "+" to add a new JSW file (backend function)
+ * 4. Copy this code into that file (e.g., sendGrid.jsw)
+ * 5. In Wix Secrets Manager, add:
+ *      - SENDGRID_API_KEY
+ *      - SENDGRID_FROM_EMAIL
+ *      - SENDGRID_TEMPLATE_ID
+ * You'll need to make sure to use these names for your secrets exactly, or 
+ * update the code below accordingly to reflect yours. 
+ * 6. Connect this function to your site’s form submit event
+ * 7. Preview and submit a test form → You’ll get an email!
+ * See the GitHub README for a screenshot of the Secrets Manager
+ * and folder structure. 
+ * 
+ * If you got this working, congratulations—you've just built a 
+ * secure email relay for your site! 
  */
 
 import sgMail from '@sendgrid/mail';
