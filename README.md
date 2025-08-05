@@ -127,12 +127,13 @@ dynamic_template_data: {
 
 ## Project Structure
 
+```
 ├── index.js           # Simple Node.js demo for local testing
 ├── sendGrid.jsw       # Secure Wix backend function using SendGrid + Secrets Manager
 ├── .env.example       # Example of local environment variable setup
 ├── README.md          # Documentation (this file)
 └── .gitignore         # Ignores node_modules and sensitive files
-
+```
 ---
 
 ## Security Notes
