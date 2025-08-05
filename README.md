@@ -1,6 +1,7 @@
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)](https://nodejs.org/)
-[![SendGrid](https://img.shields.io/badge/SendGrid-API-blue)](https://sendgrid.com/)
-[![Educational](https://img.shields.io/badge/Purpose-Educational-yellow)]()
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green)]()
+[![SendGrid](https://img.shields.io/badge/SendGrid-API-blue)]()
+[![Purpose](https://img.shields.io/badge/Purpose-Educational-gold)]()
+[![Status](https://img.shields.io/badge/Status-Demo-green)]()
 
 # SendGrid Email Demo for Wix (Global Guide Group)
 
