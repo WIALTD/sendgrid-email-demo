@@ -2,6 +2,8 @@
 
 This repository demonstrates **how to send secure, dynamic emails** from a **Wix website backend** using [SendGrid](https://sendgrid.com/) and **Wix Secrets Manager**.  
 
+⭐ It also doubles as a **beginner‑friendly guide**
+
 We use this approach at **Global Guide Group (GGG)** to:  
 - Relay **private tour requests to our guides**  
 - Keep **guide emails and API keys safe**  
