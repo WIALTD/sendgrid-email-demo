@@ -117,6 +117,8 @@ dynamic_template_data: {
     message: item.message
 }
 
+```
+
 6. **Test It**  
    - Preview the site and submit a form  
    - You should receive a personalized email from your template!
