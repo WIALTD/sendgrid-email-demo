@@ -13,6 +13,20 @@ This setup ensures that **no keys or email addresses** are ever exposed to the p
 
 ---
 
+### Why No Live Demo?
+
+- Sending emails requires a **real API key and domain sender**  
+- If we exposed this as a live demo, anyone could:
+  - Abuse the key to send spam
+  - Get our domain **blacklisted**
+  - Damage our SendGrid sender reputation
+
+Instead, this repo is a **safe reference implementation**:  
+- Clone it, add your own keys, and test privately  
+- Use it as a template to build secure contact forms for team members on your own site
+
+---
+
 ## Quick Start for Wix Beginners
 
 1. **Enable Dev Mode**  
