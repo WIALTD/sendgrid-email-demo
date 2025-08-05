@@ -93,11 +93,11 @@ likely be different.
 ![SendGrid Template Example](assets/sendgrid-template-example.png)
 
 *Above: Example of a SendGrid dynamic email template using {{variables}} to personalize the message.*
+
 ### Example
 
 In the `sendgridEmail(item)` function, we send this data:
 
-```markdown
 ```js
 dynamic_template_data: {
     firstName: item.firstName,
