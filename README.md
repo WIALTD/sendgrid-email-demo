@@ -99,6 +99,7 @@ likely be different.
 In the `sendgridEmail(item)` function, we send this data:
 
 ```js
+
 dynamic_template_data: {
     firstName: item.firstName,
     lastName: item.lastName,
