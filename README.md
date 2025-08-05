@@ -75,17 +75,17 @@ Message:
 Just to use our example from our Tour Guide Website, and of course your application will
 likely be different. 
 
-How It Works
+**How It Works**
 
-	1.	Submit Form on Wix Site
+	1.	**Submit Form on Wix Site**
 	•	User fills in first name, last name, dates, and a message
-	2.	Backend Function Runs
+	2.	**Backend Function Runs**
 	•	sendgridEmail(item) sends the email through SendGrid
-	3.	SendGrid Replaces Variables
+	3.	**SendGrid Replaces Variables**
 	•	All {{variableName}} placeholders are replaced with real user data
 	•	The guide receives a personalized email without exposing any emails or keys
 
-Quick Tips
+**Quick Tips**
 	•	Variable names in dynamic_template_data must match your SendGrid template variables exactly
 	•	Use {{variableName}} in your SendGrid template for text replacements
 	•	Test your template with SendGrid’s Preview to verify variables are rendering correctly
@@ -97,6 +97,7 @@ Quick Tips
 
 In the `sendgridEmail(item)` function, we send this data:
 
+```markdown
 ```js
 dynamic_template_data: {
     firstName: item.firstName,
