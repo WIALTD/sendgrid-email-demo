@@ -119,9 +119,10 @@ dynamic_template_data: {
 
 ```
 
-6. **Test It**  
-   - Preview the site and submit a form  
-   - You should receive a personalized email from your template!
+6. **Test It**
+
+- Preview the site and submit a form  
+- You should receive a personalized email from your template!
 
 ---
 
