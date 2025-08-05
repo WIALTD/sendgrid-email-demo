@@ -1,3 +1,7 @@
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)](https://nodejs.org/)
+[![SendGrid](https://img.shields.io/badge/SendGrid-API-blue)](https://sendgrid.com/)
+[![Educational](https://img.shields.io/badge/Purpose-Educational-yellow)]()
+
 # SendGrid Email Demo for Wix (Global Guide Group)
 
 This repository demonstrates **how to send secure, dynamic emails** from a **Wix website backend** using [SendGrid](https://sendgrid.com/) and **Wix Secrets Manager**.  
